@@ -1,46 +1,63 @@
 body {
     margin: 75px;
 }
+
 nav {
     background-color: lightgray;
     display: flex;
-    align-items: center;   
+    align-items: center;
 }
 
 .nav {
     display: flex;
     font-weight: bold;
-    
+
     gap: 15px;
     margin: 35px;
     font-size: 15px;
 }
+
 .logo-yum-store {
     background-color: lightgrey;
 }
+
 .bouton {
     text-decoration: none;
     color: black;
 }
+
 .acceuil {
     text-decoration-color: red;
     color: black;
-    
+
 }
+
 .click {
     text-decoration: none;
     background-color: black;
     color: white;
     background-size: 200px 300px;
+    font-size: 25px;
 }
+
 .nom {
     font-weight: bold;
     font-size: 24px;
 }
+
 .logo-store {
     width: 150px;
-  height: auto;
-  display: block;
-  margin-left: auto; 
-  margin-right: 0;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    align-items: flex-start;
+}
+.descrip {
+    font-size: 25px;
+    
+}
+.milieu {
+    margin: 20px;
 }
