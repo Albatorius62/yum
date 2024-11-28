@@ -1,0 +1,17 @@
+body {
+    margin: 125px;
+}
+nav {
+    background-color: white;
+    display: flex;
+    align-items: center;   
+}
+.nav {
+    display: flex;
+    color: black;
+    gap: 15px;
+    margin: 35px;
+}
+.logo-yum-store {
+    background-color: white;
+}
