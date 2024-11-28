@@ -38,6 +38,8 @@ nav {
     color: white;
     background-size: 200px 300px;
     font-size: 25px;
+    
+    padding: 10px 20px;
 }
 
 .nom {
@@ -52,12 +54,23 @@ nav {
     margin-left: auto;
     margin-right: 0;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 .descrip {
     font-size: 25px;
+    display: ;
     
 }
 .milieu {
-    margin: 20px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: ;
 }
