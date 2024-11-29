@@ -263,15 +263,77 @@ footer {
     display: flex;
     justify-content: space-evenly;
     font-size: 30px;
-    font-weight: bold;
+    
     margin-left: 100px;
 }
 
 .menu1 {
     background-color: lightgrey;
-
+    display: flex;
+    font-size: 35px;
+    justify-content: space-evenly;
+    padding: 0;
+    flex-direction: column;
+    line-height: 0.1;
+    
 }
-
+.menu {
+    font-weight: bold;
+    display: flex;
+    
+    
+    
+}
 .red {
     color: red;
+
+}
+.log {
+    width: 150px;
+    margin-top: 75px;
+}
+.menu2 {
+    background-color: rgb(255, 253, 253);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;  
+    margin-left: 150px; 
+    margin-right: 150px;
+    line-height: 0.5;
+}
+.gras {
+    font-weight: bold;
+}
+.gras1 {
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-size: 32px;
+}
+@media (max-width: 768px) {
+    .logo-store {
+        display: none;
+    }
+    .menu2 {
+        font-size: 15px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .contactez {
+        font-size: 15px;
+    }
+    .menu1 {
+        font-size: 25px;
+    }
+    .map {
+        max-width: 400px;
+    height: 500px;
+    flex: 0;
+    display: flex;
+    align-self: flex-start;
+    }
+    .facade {
+        flex-direction: column;
+        align-content: center;
+    }
 }
