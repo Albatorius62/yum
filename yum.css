@@ -1,12 +1,17 @@
 body {
-    margin: 50px;
+    margin-top: 0;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
+
 nav {
-    background-color: lightgray;
+    background-color: #d3d3d3;
     display: flex;
     align-items: center;
 }
+
+
 
 .nav {
     display: flex;
@@ -14,11 +19,14 @@ nav {
     gap: 15px;
     margin: 35px;
     font-size: 15px;
+
 }
 
 .logo-yum-store {
     background-color: lightgrey;
     width: 150px;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 
 .bouton {
@@ -51,6 +59,7 @@ nav {
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .logo-store {
@@ -58,14 +67,15 @@ nav {
     height: auto;
     margin-left: auto;
     margin-right: 0;
+    margin-right: 90px;
 }
 
 .milieu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: lightgrey;
-    padding: 30px;
+    
 }
 
 .text {
@@ -73,6 +83,7 @@ nav {
     flex-direction: column;
     gap: 10px;
     font-size: 25px;
+    margin-left: 90px;
 }
 
 .adresse {
@@ -91,7 +102,7 @@ nav {
 .facade {
     margin: 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
     gap: 20px;
@@ -102,6 +113,8 @@ nav {
     text-align: center;
     max-width: 200px;
     margin: 10px;
+    font-weight: bold;
+    
 }
 
 .facade-img {
@@ -121,7 +134,8 @@ nav {
 .store-zipcode {
     font-size: 14px;
     margin: 5px 0;
-    color: #555;
+    
+
 }
 
 .commande {
@@ -176,7 +190,7 @@ nav {
     justify-content: center;
     gap: 20px;
     margin-bottom: 10px;
-    
+
 }
 
 .image img {
@@ -200,8 +214,25 @@ footer {
     gap: 30px;
     height: auto;
     padding: 50px;
-    
+
 }
+
 .maps {
     margin-right: 30px;
+}
+
+.store3 {
+    display: flex;
+    background-color: lightgrey;
+    flex-direction: row;
+}
+
+.store1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.map {
+    display: flex;
+    justify-content: end;
 }
